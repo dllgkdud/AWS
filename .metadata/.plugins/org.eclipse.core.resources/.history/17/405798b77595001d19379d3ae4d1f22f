@@ -1,0 +1,30 @@
+package com.company.myapp2.repository;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import java.util.stream.IntStream;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import lombok.extern.log4j.Log4j2;
+
+@SpringBootTest
+@Log4j2
+public class BoardRepositoryTest {
+
+	@Autowired
+	BoardRepository boardRepository;
+	
+	//레코드 추가
+	@Test
+	public void testInsert() {
+		//IntStream : 동시에 여러건(더미) 입력 - Lambda
+		IntStream.rangeClosed(1, 10).forEach(i -> {
+			
+		});
+		//fail("Not yet implemented");
+	}
+
+}

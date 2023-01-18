@@ -1,0 +1,14 @@
+package com.company.myapp2.repository;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BoardRepositoryTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

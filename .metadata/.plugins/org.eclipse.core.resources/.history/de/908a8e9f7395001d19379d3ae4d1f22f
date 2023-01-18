@@ -1,0 +1,19 @@
+package com.company.myapp2.domain;
+
+import org.hibernate.annotations.Entity;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.ToString;
+
+@Entity
+@Getter
+@Builder
+@ToString
+public class Board {
+	@Id
+	//@GeneratedValue(strategy = GenerationType.SEQUENCE) - Oracle
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long bno;
+	
+}

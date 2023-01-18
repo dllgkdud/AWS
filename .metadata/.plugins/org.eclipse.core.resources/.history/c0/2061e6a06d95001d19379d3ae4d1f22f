@@ -1,0 +1,10 @@
+package com.company.myapp2.domain;
+
+import org.hibernate.annotations.Entity;
+
+@Entity
+public class Board {
+
+	//@Sequence - Oracle
+	//@GeneratedValue(strategy = GenerationType.SEQUENCE)
+}
